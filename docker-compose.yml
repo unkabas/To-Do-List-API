@@ -8,4 +8,4 @@ services:
     environment:
       - POSTGRES_PASSWORD=localhost2002
       - POSTGRES_USER=unkabas
-      - POSTGRES_DB=test
+      - POSTGRES_DB=task

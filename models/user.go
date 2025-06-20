@@ -8,5 +8,4 @@ type User struct {
 	Email    string
 	Password string
 	IsAuth   bool `gorm:"false"`
-	Tasks    []Task
 }

@@ -20,5 +20,6 @@ func main() {
 	r.POST("/login", controllers.Login)
 	r.POST("/logout", controllers.LogOut)
 	r.GET("/:username/profile", middlewares.CheckAuth, controllers.UserProfile)
+	r.POST("/:username/addTask", middlewares.CheckAuth, controllers.AddTask)
 	r.Run(":8080")
 }

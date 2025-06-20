@@ -14,7 +14,7 @@ func CheckAuth(c *gin.Context) {
 		c.JSON(400, gin.H{
 			"message": "you are not signin",
 		})
-		c.Abort() // Stop the request pipeline
+		c.Abort()
 		return
 	}
 

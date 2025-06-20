@@ -6,5 +6,5 @@ type Task struct {
 	gorm.Model
 	Title   string
 	Content string
-	UserID  uint
+	UserID  string
 }
