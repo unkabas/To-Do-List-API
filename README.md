@@ -83,11 +83,3 @@ The API uses a stateful authentication system where user login status is tracked
 
 The project includes an automated migration system using GORM's AutoMigrate feature [14](#0-13) . Run migrations before starting the application to ensure the database schema is up to date.
 
-## Notes
-
-This README provides a comprehensive overview of the To-Do List API based on the current codebase structure. The API implements basic CRUD operations for users and tasks with a simple authentication system. For detailed API documentation including request/response formats and error handling, refer to the API Reference wiki page.
-
-Wiki pages you might want to explore:
-- [API Reference (unkabas/To-Do-List-API)](/wiki/unkabas/To-Do-List-API#4)
-- [Authentication & Security (unkabas/To-Do-List-API)](/wiki/unkabas/To-Do-List-API#6)
-- [Development Guide (unkabas/To-Do-List-API)](/wiki/unkabas/To-Do-List-API#8)
